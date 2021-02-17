@@ -1,2 +1,3 @@
 FROM jupyter/minimal-notebook:016833b15ceb
-ENV JUPYTER_ENABLE_LAB=yes
+
+COPY work /home/jovyan/work
